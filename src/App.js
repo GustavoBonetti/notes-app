@@ -1,15 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.scss';
+import './assets/App.scss';
 import { Form } from './components/form';
 
 function App() {
   return (
     <div className="App">
+      <Form />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hello world!</h1>
-        <Form />
       </header>
     </div>
   );

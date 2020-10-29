@@ -1,20 +1,15 @@
-.add {
+.form {
   display: flex;
-  position: absolute;
-  z-index: 9;
-  height: 100%;
+  flex-direction: column;
+  margin: 8px;
+  min-width: 300px;
 
-  &-form {
-    display: flex;
-    flex-direction: column;
-    margin: 8px;
+  textarea, input, button {
+    outline: none;
+    padding: 8px;
+  }
 
-    textarea, input {
-      outline: none;
-    }
-
-    input {
-      margin: 8px 0;
-    }
+  input {
+    margin: 8px 0;
   }
 }

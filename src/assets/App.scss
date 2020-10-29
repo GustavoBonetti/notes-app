@@ -5,6 +5,13 @@
     opacity: 0.25;
   }
 
+  &-notes {
+    position: absolute;
+    z-index: 9;
+    min-height: 100%;
+    display: flex;
+  }
+
   &-header {
     position: absolute;
     width: 100%;

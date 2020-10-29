@@ -1,0 +1,21 @@
+.notes {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+
+  &-card {
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    background-color: #60c0f5;
+    border-radius: 5px;
+    max-width: 300px;
+
+    span {
+      margin: 4px 0;
+    }
+  }
+}
